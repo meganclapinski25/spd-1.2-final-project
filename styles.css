@@ -1,0 +1,32 @@
+.sign-in-link:hover {
+    color: blue ; 
+  }
+.form-signin{ 
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.radio-decision {
+    text-align: center; 
+}
+.inputs{
+ padding: 2%;
+}
+
+#sign-up-form{
+    padding-top: 20%;
+}
+#button-sign-up-form{
+    padding: 2%;
+    
+}
+#aboutUs{
+    
+        padding: 10px;
+       
+        background-color:rgb(198, 198, 198);
+    
+}
+
+

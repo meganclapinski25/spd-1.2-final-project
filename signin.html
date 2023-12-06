@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Urban Cycle</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+       <!-- BOOTSTRAP THEME -->
+       <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+       <!-- CUSTOM STYLES -->
+       <link rel="stylesheet" href="styles.css">
+      
+      </head>
+<body style="background-color: rgb(213, 211, 211);">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm " style="font-size: 8px;">
+      <!--logo image to the left-->
+      <a class="navbar-brand" href="#">
+          <img src="images/finallogo.png" >
+        </a>
+    
+      
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto" style="font-size: larger;">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tour</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About Us</a>
+            </li>
+          </ul>
+      
+          <ul class="navbar-nav" style="font-size: larger;">
+            <li class="nav-item active" >
+              <a class="nav-link sign-in-link" href="signin.html" style="color: blue;">Sign In</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <section class="text-center">
+        <form class="form-signin">
+            <h1 class="h3 mb-3 font-weight-bold">Sign in</h1>  
+            <div class="row">
+                <div class="col-sm">
+                    <label><input type="checkbox" value="vendor"> Vendor</label>
+                </div>
+                <div class="col-sm">
+                    <label><input type="checkbox" value="guest"> Guest</label>
+                </div>
+            </div>
+    
+            <div class ="inputs">
+                <label for="inputEmail" class="sr-only">Email address</label>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+            </div>
+            <div class ="inputs">
+                <label for="inputPassword" class="sr-only">Password</label>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+            </div>
+            
+            
+            
+            
+            <button class="btn btn-md btn-outline-primary btn-block" type="submit" id = "button-sign-up-form">Sign in</button>
+            
+          </form>         
+    </section>
+    
+    
+    <section class = "text-center">
+        <form class="form-signin" id="sign-up-form">
+            <h1 class="h3 mb-3 font-weight-bold">Sign Up</h1>  
+            
+            <div class="row">
+                <div class="col-sm">
+                    <label><input type="checkbox" value="vendor"> Vendor</label>
+                </div>
+                <div class="col-sm">
+                    <label><input type="checkbox" value="guest"> Guest</label>
+                </div>
+            </div>
+    
+            <div class ="inputs">
+                <label for="inputEmail" class="sr-only">Email address</label>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" >
+            </div>
+            <div class ="inputs">
+                <label for="inputUsername" class="sr-only">Username</label>
+                <input type="username" id="inputUsername" class="form-control" placeholder="Username">
+            </div>
+            <div class ="inputs">
+                <label for="inputPassword" class="sr-only">Password</label>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" >
+            </div>
+            <div class ="inputs">
+                <label for="inputPassword" class="sr-only">Password</label>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Retype Password" >
+            </div>
+            <div class ="inputs">
+                <label for="inputPhone" class="sr-only">Phone Number</label>
+                <input type="phonenumber" id="inputPhone" class="form-control" placeholder="Phone Number " >
+            </div>
+            <div class="notfis">
+                <label><input type="checkbox" id = "notfications"> Click here if you want to recieve notficatons about upcoming event, vendors, or tour dates</label>
+            </div>
+            
+            
+            
+            <button class="btn btn-md btn-outline-primary btn-block" type="submit">Sign up</button>
+            
+          </form>   
+
+    </section>
+</body>
+<footer class="bg-light text-dark py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Contact Us</h5>
+                <p>Email: urbancycle@gmail.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+            <div class="col-md-3 offset-md-3">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled ">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+</html>
