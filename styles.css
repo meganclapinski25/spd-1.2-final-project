@@ -8,25 +8,33 @@
   margin: 0 auto;
 }
 .radio-decision {
-    text-align: center; 
+  text-align: center; 
 }
 .inputs{
  padding: 2%;
 }
 
 #sign-up-form{
-    padding-top: 20%;
+  padding-top: 20%;
 }
 #button-sign-up-form{
-    padding: 2%;
+  padding: 2%;
     
 }
-#aboutUs{
-    
-        padding: 10px;
-       
-        background-color:rgb(198, 198, 198);
+#aboutUs{  
+        
+  background-color:rgb(198, 198, 198);
     
 }
+.bike-logo img{
+  height: 173px;
+  width: 291px;
+  object-fit: cover;
+}
+.lectric img{
+  width: auto;
+}
+
+
 
 
